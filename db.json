@@ -1,0 +1,9 @@
+{
+  "expenses": [
+    {
+      "id": 2,
+      "name": "three",
+      "amount": 300
+    }
+  ]
+}
