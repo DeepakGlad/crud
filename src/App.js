@@ -74,20 +74,22 @@ function App() {
       key={value.id} 
       className='list-31'
     >
-      <p>{value.name} - ${value.amount}</p>
+      <p>{value.name} - {value.amount}</p>
       <button 
-        className='button-31'
+        className='button-89'
         onClick={() => rmState(value)}
       >
         Delete <img src="https://img.icons8.com/emoji/48/000000/wastebasket-emoji.png" alt="delete" className="w-6 h-6" />
       </button>
       <button 
         onClick={() => edState(value)}
-        className='button-31'
+        className='button-89'
       >
         Edit <img width="26" height="26" src="https://img.icons8.com/metro/26/edit.png" alt="edit" className="w-6 h-6"/>
       </button>
+
     </div>
+    
   ));
 
   return (
